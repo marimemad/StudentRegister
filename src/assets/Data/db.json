@@ -1,0 +1,79 @@
+{
+  "students": [
+    {
+      "id": "0592",
+      "name": "marim",
+      "email": "test@gmail.com",
+      "address": "test",
+      "dateOfBirth": "2025-12-03",
+      "courseIds": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "9e1b",
+      "name": "test",
+      "email": "test@gmail.com",
+      "address": "j",
+      "dateOfBirth": "2025-12-26",
+      "courseIds": [
+        "6"
+      ]
+    },
+    {
+      "id": "9e68",
+      "name": "test",
+      "email": "test@gmail.com",
+      "address": "j",
+      "dateOfBirth": "2025-12-26",
+      "courseIds": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "683d",
+      "name": "test",
+      "email": "test@gmail.com",
+      "address": "j",
+      "dateOfBirth": "2025-12-26",
+      "courseIds": [
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "name": "Angular Basics",
+      "duration": "3 weeks"
+    },
+    {
+      "id": "2",
+      "name": "TypeScript Fundamentals",
+      "duration": "2 weeks"
+    },
+    {
+      "id": "3",
+      "name": "JavaScript Advanced",
+      "duration": "4 weeks"
+    },
+    {
+      "id": "4",
+      "name": "HTML ",
+      "duration": "4 weeks"
+    },
+    {
+      "id": "5",
+      "name": "CSS ",
+      "duration": "5 weeks"
+    },
+    {
+      "id": "6",
+      "name": "React ",
+      "duration": "3 weeks"
+    }
+  ]
+}
