@@ -7,6 +7,7 @@ import {
   ApexChart,
   ApexLegend
 } from 'ng-apexcharts';
+import { ErrorModalService } from '../../services/shared/error-modal.service';
 
 export type PieChartOptions = {
   series: ApexNonAxisChartSeries;
@@ -21,25 +22,21 @@ export type PieChartOptions = {
   templateUrl: './course-statistics.component.html',
   styleUrls: ['./course-statistics.component.css']
 })
-export class CourseStatisticsComponent implements  OnInit{
-  students: any[] = []; // initialize
-courses: any[] = [];  // initialize
+export class CourseStatisticsComponent implements OnInit {
+  students: any[] = [];
+  courses: any[] = [];
   public chartOptions: PieChartOptions;
 
- constructor(
+  constructor(
     private courseService: CoursesService,
-    private studentService: StudentService
+    private studentService: StudentService,
+    private errorModalService: ErrorModalService
   ) {
     this.chartOptions = {
-      series: [],               // empty series
-      chart: {
-        type: 'pie',
-        height: 350
-      },
-      labels: [],               // empty labels
-      legend: {
-        position: 'bottom'
-      },
+      series: [],
+      chart: { type: 'pie', height: 350 },
+      labels: [],
+      legend: { position: 'bottom' },
       responsive: [
         {
           breakpoint: 480,
@@ -51,29 +48,40 @@ courses: any[] = [];  // initialize
       ]
     };
   }
-  
+
   ngOnInit(): void {
     this.loadChartData();
   }
 
   loadChartData() {
-  this.courseService.getAllCourses().subscribe(courses => {
-    this.courses = courses;
-    this.studentService.getStudents().subscribe(students => {
-      this.students = students;
+    this.courseService.getAllCourses().subscribe({
+      next: courses => {
+        this.courses = courses;
 
-      const totalStudents = this.students.length;
+        this.studentService.getStudents().subscribe({
+          next: students => {
+            this.students = students;
 
-      const series = this.courses.map(c => {
-        const count = this.students.filter(s => s.courseIds.includes(c.id)).length;
-        return totalStudents > 0 ? Math.round((count / totalStudents) * 100) : 0;
-      });
-       const labels = this.courses.map(c => c.name);
+            const totalStudents = this.students.length;
 
-  this.chartOptions = { ...this.chartOptions, series, labels };
+            const series = this.courses.map(c => {
+              const count = this.students.filter(s => s.courseIds.includes(c.id)).length;
+              return totalStudents > 0 ? Math.round((count / totalStudents) * 100) : 0;
+            });
+
+            const labels = this.courses.map(c => c.name);
+
+            this.chartOptions = { ...this.chartOptions, series, labels };
+          },
+          error: err => {
+            this.errorModalService.show("Unable to load students! Check server is running");
+          }
+        });
+
+      },
+      error: err => {
+        this.errorModalService.show("Unable to load courses! Check server is running");
+      }
     });
-  });
-}
-
- 
+  }
 }

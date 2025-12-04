@@ -1,10 +1,33 @@
 <div>
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link " aria-current="page"  routerLinkActive="active" routerLink="/Students">Student Data</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link"  routerLinkActive="active" routerLink="/Statistics" >Courses Statistics</a>
-  </li>
-</ul>
+  <ul class="nav nav-tabs" role="tablist">
+    <!-- Student Data Tab -->
+    <li class="nav-item" role="presentation">
+      <a 
+        class="nav-link" 
+        routerLink="/Students" 
+        routerLinkActive="active" 
+        [attr.aria-current]="isStudentActive() ? 'page' : null"
+        role="tab"
+        [attr.aria-selected]="isStudentActive()"
+        tabindex="0"
+      >
+        Student Data
+      </a>
+    </li>
+
+    <!-- Courses Statistics Tab -->
+    <li class="nav-item" role="presentation">
+      <a 
+        class="nav-link" 
+        routerLink="/Statistics" 
+        routerLinkActive="active" 
+        [attr.aria-current]="isStatisticsActive() ? 'page' : null"
+        role="tab"
+        [attr.aria-selected]="isStatisticsActive()"
+        tabindex="0"
+      >
+        Courses Statistics
+      </a>
+    </li>
+  </ul>
 </div>

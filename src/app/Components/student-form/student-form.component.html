@@ -1,34 +1,52 @@
-<div class=" py-4 px-4">
+<div class="py-4 px-4">
   <h3>Student Form</h3>
 
   <form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
 
     <!-- Name -->
     <div class="mb-3">
-      <label class="form-label">Name</label>
-      <input type="text" class="form-control"
-             formControlName="name">
-
-      <!-- ERROR MESSAGE -->
-      <div class="text-danger mt-1" *ngIf="
-          studentForm.get('name')?.invalid &&
-          studentForm.get('name')?.touched
-        ">
-        Name is required.
+      <label for="name" class="form-label">Name</label>
+      <input
+        id="name"
+        type="text"
+        class="form-control"
+        formControlName="name"
+        aria-describedby="nameError"
+        [attr.aria-invalid]="studentForm.get('name')?.invalid && studentForm.get('name')?.touched"
+      />
+      <div
+        id="nameError"
+        class="text-danger mt-1"
+        *ngIf="studentForm.get('name')?.invalid && studentForm.get('name')?.touched"
+        role="alert"
+      >
+         <div *ngIf="studentForm.get('name')?.errors?.['required']">
+            Name is required.
+          </div>
+          <div *ngIf="studentForm.get('name')?.errors?.['minlength']">
+            Name must be at least 3 characters long.
+          </div>
       </div>
+      
     </div>
 
     <!-- Email -->
     <div class="mb-3">
-      <label class="form-label">Email</label>
-      <input type="email" class="form-control"
-             formControlName="email">
-
-      <!-- ERROR MESSAGE -->
-      <div class="text-danger mt-1" *ngIf="
-          studentForm.get('email')?.invalid &&
-          studentForm.get('email')?.touched
-        ">
+      <label for="email" class="form-label">Email</label>
+      <input
+        id="email"
+        type="email"
+        class="form-control"
+        formControlName="email"
+        aria-describedby="emailError"
+        [attr.aria-invalid]="studentForm.get('email')?.invalid && studentForm.get('email')?.touched"
+      />
+      <div
+        id="emailError"
+        class="text-danger mt-1"
+        *ngIf="studentForm.get('email')?.invalid && studentForm.get('email')?.touched"
+        role="alert"
+      >
         <div *ngIf="studentForm.get('email')?.errors?.['required']">
           Email is required.
         </div>
@@ -38,51 +56,87 @@
       </div>
     </div>
 
+<!-- Phone -->
+    <div class="mb-3">
+  <label for="phone" class="form-label">Phone</label>
+  <input id="phone" type="tel" class="form-control" formControlName="phone" aria-describedby="phoneHelp">
+
+  <div class="text-danger mt-1" *ngIf="studentForm.get('phone')?.touched && studentForm.get('phone')?.invalid">
+    <div *ngIf="studentForm.get('phone')?.errors?.['required']">Phone number is required.</div>
+    <div *ngIf="studentForm.get('phone')?.errors?.['pattern']">Enter a valid 11-digit phone number.</div>
+  </div>
+</div>
+
+
     <!-- Address -->
     <div class="mb-3">
-      <label class="form-label">Address</label>
-      <textarea class="form-control" rows="2"
-                formControlName="address"></textarea>
+      <label for="address" class="form-label">Address</label>
+      <textarea
+        id="address"
+        class="form-control"
+        rows="2"
+        formControlName="address"
+        aria-describedby="addressHelp"
+      ></textarea>
+      <div id="addressHelp" class="form-text">
+        Optional: Provide your mailing address.
+      </div>
     </div>
 
     <!-- Date of Birth -->
     <div class="mb-3">
-      <label class="form-label">Date of Birth</label>
-      <input type="date" class="form-control"
-             formControlName="dateOfBirth">
-
-      <!-- ERROR MESSAGE -->
-      <div class="text-danger mt-1" *ngIf="
-          studentForm.get('dateOfBirth')?.invalid &&
-          studentForm.get('dateOfBirth')?.touched
-        ">
+      <label for="dateOfBirth" class="form-label">Date of Birth</label>
+      <input
+        id="dateOfBirth"
+        type="date"
+        class="form-control"
+        formControlName="dateOfBirth"
+        aria-describedby="dobError"
+        [attr.aria-invalid]="studentForm.get('dateOfBirth')?.invalid && studentForm.get('dateOfBirth')?.touched"
+      />
+      <div
+        id="dobError"
+        class="text-danger mt-1"
+        *ngIf="studentForm.get('dateOfBirth')?.invalid && studentForm.get('dateOfBirth')?.touched"
+        role="alert"
+      >
         Date of birth is required.
       </div>
     </div>
 
     <!-- Course Selection -->
     <div class="mb-3">
-            <label class="form-label">Courses</label>
-      <mat-form-field  class="w-100">
+      <label id="coursesLabel" class="form-label">Courses</label>
+      <mat-form-field class="w-100">
         <mat-label>Select Course</mat-label>
-        <mat-select formControlName="courseIds" multiple>
+        <mat-select
+          id="courses"
+          formControlName="courseIds"
+          multiple
+          aria-labelledby="coursesLabel"
+        >
           <mat-option *ngFor="let c of courses" [value]="c.id">
             {{ c.name }}
           </mat-option>
         </mat-select>
       </mat-form-field>
-
-      <div class="text-danger mt-1"
-           *ngIf="studentForm.get('courseIds')?.errors?.['courseLimit'] &&
-                  studentForm.get('courseIds')?.touched">
+      <div
+        id="courseError"
+        class="text-danger mt-1"
+        *ngIf="studentForm.get('courseIds')?.errors?.['courseLimit'] &&
+               studentForm.get('courseIds')?.touched"
+        role="alert"
+      >
         Please select minimum 1 and maximum 2 courses.
       </div>
     </div>
 
     <!-- Submit Button -->
-    <button class="btn btn-primary"
-            type="submit"
-            [disabled]="studentForm.invalid">
+    <button
+      class="btn btn-primary"
+      type="submit"
+      [disabled]="studentForm.invalid"
+    >
       Submit
     </button>
 
