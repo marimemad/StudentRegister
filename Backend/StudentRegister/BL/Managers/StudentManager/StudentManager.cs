@@ -17,7 +17,7 @@ namespace BL.Managers.StudentManager
             _repo = repo;
             _mapper = mapper;
         }
-
+        //get all students with there's courses
         public async Task<Response<List<StudentRead>>> GetStudentWithCoursesAsync()
         {
             try
@@ -33,6 +33,7 @@ namespace BL.Managers.StudentManager
 
         }
 
+        //create students
         public async Task<Response<string>> CreateStudentAsync(StudentWrite model)
         {
             if (model.CourseIds.Count < 1 || model.CourseIds.Count > 2)

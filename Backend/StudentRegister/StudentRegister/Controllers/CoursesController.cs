@@ -13,7 +13,7 @@ namespace StudentRegister.Controllers
         {
             _manager = manager;
         }
-
+        //get all courses
         [HttpGet(Router.CourseRouting.List)]
         public async Task<IActionResult> GetCourses()
         {

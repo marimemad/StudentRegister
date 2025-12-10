@@ -6,6 +6,7 @@ using System.Text.Json;
 
 namespace BL.Bases.Middleware
 {
+    //handel error responce for all aplication
     public class ErrorHandlerMiddleware
     {
         private readonly RequestDelegate _next;

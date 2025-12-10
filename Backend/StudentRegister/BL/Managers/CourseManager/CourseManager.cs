@@ -16,6 +16,7 @@ namespace BL.Managers.CourseManager
             _repo = repo;
             _mapper = mapper;
         }
+        //get all courses
         public async Task<Response<List<CouseRead>>> GetCoursesAsync()
         {
             try

@@ -1,50 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\projects\\ATI\\backend\\StudentRegister\\",
+  "WorkspaceRootPath": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\managers\\studentmanager\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\managers\\studentmanager\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\managers\\coursemanager\\coursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\managers\\coursemanager\\coursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\bases\\rsponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\bases\\rsponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\backend\\studentregister\\studentregister\\bases\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|solutionrelative:studentregister\\bases\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\dtos\\student\\studentwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\dtos\\student\\studentwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\backend\\studentregister\\studentregister\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|solutionrelative:studentregister\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\bases\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\bases\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\backend\\studentregister\\studentregister\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\studentregister\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|solutionrelative:studentregister\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\backend\\studentregister\\studentregister\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\studentregister\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|solutionrelative:studentregister\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\automapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\studentregister\\bases\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|solutionrelative:studentregister\\bases\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\studentregister\\bases\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|solutionrelative:studentregister\\bases\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0264C9EE-5EDA-4BCA-9A89-3BD33E3BCE85}|DAL\\DAL.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\dal\\context\\studentregistercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0264C9EE-5EDA-4BCA-9A89-3BD33E3BCE85}|DAL\\DAL.csproj|solutionrelative:dal\\context\\studentregistercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\bl\\bldependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\bldependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\bl\\unitofwork\\unitofworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\unitofwork\\unitofworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\bl\\managers\\studentmanager\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\managers\\studentmanager\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\bl\\managers\\coursemanager\\coursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\managers\\coursemanager\\coursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\bl\\dtos\\course\\couseread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\dtos\\course\\couseread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\bl\\bases\\rsponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\bases\\rsponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\bl\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\bl\\bases\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\bases\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\bl\\automapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\automapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\studentregister\\backend\\studentregister\\studentregister\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|solutionrelative:studentregister\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +70,200 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "Router.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\StudentRegister\\Bases\\Router.cs",
+              "RelativeDocumentMoniker": "StudentRegister\\Bases\\Router.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\StudentRegister\\Bases\\Router.cs",
+              "RelativeToolTip": "StudentRegister\\Bases\\Router.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T12:54:32.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentRegisterContext.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\DAL\\Context\\StudentRegisterContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\StudentRegisterContext.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\DAL\\Context\\StudentRegisterContext.cs",
+              "RelativeToolTip": "DAL\\Context\\StudentRegisterContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T12:52:40.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BLDependencies.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\BLDependencies.cs",
+              "RelativeDocumentMoniker": "BL\\BLDependencies.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\BLDependencies.cs",
+              "RelativeToolTip": "BL\\BLDependencies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T12:51:32.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWorkManager.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\UnitOfWork\\UnitOfWorkManager.cs",
+              "RelativeDocumentMoniker": "BL\\UnitOfWork\\UnitOfWorkManager.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\UnitOfWork\\UnitOfWorkManager.cs",
+              "RelativeToolTip": "BL\\UnitOfWork\\UnitOfWorkManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T12:45:42.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CouseRead.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\DTOs\\Course\\CouseRead.cs",
+              "RelativeDocumentMoniker": "BL\\DTOs\\Course\\CouseRead.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\DTOs\\Course\\CouseRead.cs",
+              "RelativeToolTip": "BL\\DTOs\\Course\\CouseRead.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T12:28:13.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\Bases\\Middleware\\ErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "BL\\Bases\\Middleware\\ErrorHandlerMiddleware.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\Bases\\Middleware\\ErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "BL\\Bases\\Middleware\\ErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T12:25:05.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "StudentsController.cs",
-              "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Controllers\\StudentsController.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\StudentRegister\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "StudentRegister\\Controllers\\StudentsController.cs",
-              "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Controllers\\StudentsController.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\StudentRegister\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "StudentRegister\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwBsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T10:53:33.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Rsponce.cs",
-              "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Bases\\Rsponce.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\Bases\\Rsponce.cs",
               "RelativeDocumentMoniker": "BL\\Bases\\Rsponce.cs",
-              "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Bases\\Rsponce.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\Bases\\Rsponce.cs",
               "RelativeToolTip": "BL\\Bases\\Rsponce.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T10:11:08.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Program.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\StudentRegister\\Program.cs",
               "RelativeDocumentMoniker": "StudentRegister\\Program.cs",
-              "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Program.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\StudentRegister\\Program.cs",
               "RelativeToolTip": "StudentRegister\\Program.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T09:53:07.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T09:53:07.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "CoursesController.cs",
-              "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Controllers\\CoursesController.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\StudentRegister\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "StudentRegister\\Controllers\\CoursesController.cs",
-              "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Controllers\\CoursesController.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\StudentRegister\\Controllers\\CoursesController.cs",
               "RelativeToolTip": "StudentRegister\\Controllers\\CoursesController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T09:20:07.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "StudentManager.cs",
-              "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Managers\\StudentManager\\StudentManager.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\Managers\\StudentManager\\StudentManager.cs",
               "RelativeDocumentMoniker": "BL\\Managers\\StudentManager\\StudentManager.cs",
-              "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Managers\\StudentManager\\StudentManager.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\Managers\\StudentManager\\StudentManager.cs",
               "RelativeToolTip": "BL\\Managers\\StudentManager\\StudentManager.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAASwCYAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAWwCMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T09:16:14.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "CourseManager.cs",
-              "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Managers\\CourseManager\\CourseManager.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\Managers\\CourseManager\\CourseManager.cs",
               "RelativeDocumentMoniker": "BL\\Managers\\CourseManager\\CourseManager.cs",
-              "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Managers\\CourseManager\\CourseManager.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\Managers\\CourseManager\\CourseManager.cs",
               "RelativeToolTip": "BL\\Managers\\CourseManager\\CourseManager.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T09:14:44.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AppControllerBase.cs",
-              "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Bases\\AppControllerBase.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\StudentRegister\\Bases\\AppControllerBase.cs",
               "RelativeDocumentMoniker": "StudentRegister\\Bases\\AppControllerBase.cs",
-              "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Bases\\AppControllerBase.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\StudentRegister\\Bases\\AppControllerBase.cs",
               "RelativeToolTip": "StudentRegister\\Bases\\AppControllerBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T09:05:39.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\AutoMapper\\AutoMapperProfile.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\AutoMapper\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "BL\\AutoMapper\\AutoMapperProfile.cs",
-              "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\AutoMapper\\AutoMapperProfile.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\AutoMapper\\AutoMapperProfile.cs",
               "RelativeToolTip": "BL\\AutoMapper\\AutoMapperProfile.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAASwA0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T07:47:15.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "ResponseHandler.cs",
-              "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Bases\\ResponseHandler.cs",
+              "DocumentMoniker": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\Bases\\ResponseHandler.cs",
               "RelativeDocumentMoniker": "BL\\Bases\\ResponseHandler.cs",
-              "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Bases\\ResponseHandler.cs",
+              "ToolTip": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\Bases\\ResponseHandler.cs",
               "RelativeToolTip": "BL\\Bases\\ResponseHandler.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAywDIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T07:31:09.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ErrorHandlerMiddleware.cs",
-              "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Bases\\Middleware\\ErrorHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "BL\\Bases\\Middleware\\ErrorHandlerMiddleware.cs",
-              "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Bases\\Middleware\\ErrorHandlerMiddleware.cs",
-              "RelativeToolTip": "BL\\Bases\\Middleware\\ErrorHandlerMiddleware.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAkwEsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T07:31:02.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentWrite.cs",
-              "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\DTOs\\Student\\StudentWrite.cs",
-              "RelativeDocumentMoniker": "BL\\DTOs\\Student\\StudentWrite.cs",
-              "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\DTOs\\Student\\StudentWrite.cs",
-              "RelativeToolTip": "BL\\DTOs\\Student\\StudentWrite.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T07:09:31.173Z",
               "EditorCaption": ""
             }
           ]

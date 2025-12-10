@@ -5,6 +5,7 @@ using System.Net;
 [ApiController]
 public class AppControllerBase : ControllerBase
 {
+    //handel .net respons with our custom resonce
     public ObjectResult NewResult<T>(Response<T> response)
     {
         switch (response.StatusCode)

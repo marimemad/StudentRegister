@@ -9,6 +9,7 @@ namespace BL.AutoMapper
     {
         public AutoMapperProfile()
         {
+            //convert from source to destination
             CreateMap<Student, StudentRead>();
             CreateMap<Course, CouseRead>();
             CreateMap<StudentWrite, Student>();

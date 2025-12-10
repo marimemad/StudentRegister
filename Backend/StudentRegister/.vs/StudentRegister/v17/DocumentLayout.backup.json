@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "E:\\projects\\ATI\\backend\\StudentRegister\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\dtos\\student\\studentwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\dtos\\student\\studentwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\managers\\studentmanager\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\managers\\studentmanager\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\managers\\coursemanager\\coursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\managers\\coursemanager\\coursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\bases\\rsponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\bases\\rsponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\backend\\studentregister\\studentregister\\bases\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|solutionrelative:studentregister\\bases\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\dtos\\student\\studentwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\dtos\\student\\studentwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\backend\\studentregister\\studentregister\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,28 +39,12 @@
       "RelativeMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|solutionrelative:studentregister\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\managers\\studentmanager\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\managers\\studentmanager\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\managers\\coursemanager\\coursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\managers\\coursemanager\\coursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\backend\\studentregister\\studentregister\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|solutionrelative:studentregister\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|e:\\projects\\ati\\backend\\studentregister\\studentregister\\bases\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85A7D23-574C-4343-8DFE-E99E3BB21715}|StudentRegister\\StudentRegister.csproj|solutionrelative:studentregister\\bases\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\automapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\automapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|e:\\projects\\ati\\backend\\studentregister\\bl\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0484FB58-D5CC-4114-BBC8-0669F2689A62}|BL\\BL.csproj|solutionrelative:bl\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "StudentRegister\\Controllers\\StudentsController.cs",
@@ -71,20 +71,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Rsponce.cs",
               "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Bases\\Rsponce.cs",
               "RelativeDocumentMoniker": "BL\\Bases\\Rsponce.cs",
               "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Bases\\Rsponce.cs",
               "RelativeToolTip": "BL\\Bases\\Rsponce.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T10:11:08.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Program.cs",
               "RelativeDocumentMoniker": "StudentRegister\\Program.cs",
@@ -97,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "StudentRegister\\Controllers\\CoursesController.cs",
@@ -110,33 +110,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "StudentManager.cs",
               "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Managers\\StudentManager\\StudentManager.cs",
               "RelativeDocumentMoniker": "BL\\Managers\\StudentManager\\StudentManager.cs",
               "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Managers\\StudentManager\\StudentManager.cs",
               "RelativeToolTip": "BL\\Managers\\StudentManager\\StudentManager.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAIA1wCkAAABkAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAASwCYAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T09:16:14.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "CourseManager.cs",
               "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Managers\\CourseManager\\CourseManager.cs",
               "RelativeDocumentMoniker": "BL\\Managers\\CourseManager\\CourseManager.cs",
               "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Managers\\CourseManager\\CourseManager.cs",
               "RelativeToolTip": "BL\\Managers\\CourseManager\\CourseManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T09:14:44.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "AppControllerBase.cs",
               "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\StudentRegister\\Bases\\AppControllerBase.cs",
               "RelativeDocumentMoniker": "StudentRegister\\Bases\\AppControllerBase.cs",
@@ -149,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\AutoMapper\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "BL\\AutoMapper\\AutoMapperProfile.cs",
@@ -162,20 +162,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "ResponseHandler.cs",
               "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Bases\\ResponseHandler.cs",
               "RelativeDocumentMoniker": "BL\\Bases\\ResponseHandler.cs",
               "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Bases\\ResponseHandler.cs",
               "RelativeToolTip": "BL\\Bases\\ResponseHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAywDIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T07:31:09.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ErrorHandlerMiddleware.cs",
               "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\Bases\\Middleware\\ErrorHandlerMiddleware.cs",
               "RelativeDocumentMoniker": "BL\\Bases\\Middleware\\ErrorHandlerMiddleware.cs",
@@ -188,13 +188,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "StudentWrite.cs",
               "DocumentMoniker": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\DTOs\\Student\\StudentWrite.cs",
               "RelativeDocumentMoniker": "BL\\DTOs\\Student\\StudentWrite.cs",
               "ToolTip": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\DTOs\\Student\\StudentWrite.cs",
               "RelativeToolTip": "BL\\DTOs\\Student\\StudentWrite.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswBEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T07:09:31.173Z",
               "EditorCaption": ""

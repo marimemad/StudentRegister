@@ -7,6 +7,7 @@
         {
 
         }
+        //delete responce
         public Response<T> Deleted<T>(string Message = null)
         {
             return new Response<T>()
@@ -16,6 +17,7 @@
                 Message = Message ?? "Deleted Successfully"
             };
         }
+        //success responce
         public Response<T> Success<T>(T entity, object Meta = null)
         {
             return new Response<T>()
@@ -27,6 +29,7 @@
                 Meta = Meta
             };
         }
+        //unauthorized responce
         public Response<T> Unauthorized<T>()
         {
             return new Response<T>()
@@ -36,6 +39,7 @@
                 Message = "UnAuthorized"
             };
         }
+
         public Response<T> BadRequest<T>(string Message = null)
         {
             return new Response<T>()
@@ -45,7 +49,7 @@
                 Message = Message ?? "Bad Request"
             };
         }
-
+        //errorr in entity
         public Response<T> UnprocessableEntity<T>(string Message = null)
         {
             return new Response<T>()
@@ -56,6 +60,7 @@
             };
         }
 
+        //not found responce
         public Response<T> NotFound<T>(string message = null)
         {
             return new Response<T>()
@@ -66,6 +71,7 @@
             };
         }
 
+        //created responce
         public Response<T> Created<T>(T entity, object Meta = null)
         {
             return new Response<T>()

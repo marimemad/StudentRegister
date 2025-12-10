@@ -15,6 +15,7 @@ namespace StudentRegister.Controllers
             _manager = manager;
         }
 
+        //get all students
         [HttpGet(Router.StudentRouting.List)]
         public async Task<IActionResult> GetStudents()
         {
@@ -22,7 +23,7 @@ namespace StudentRegister.Controllers
             return NewResult(response);
         }
 
-
+        //create student
         [HttpPost(Router.StudentRouting.Create)]
         public async Task<IActionResult> CreateStudent([FromBody] StudentWrite student)
         {

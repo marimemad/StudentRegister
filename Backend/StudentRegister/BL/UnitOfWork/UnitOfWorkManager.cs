@@ -3,6 +3,7 @@ using BL.Managers.StudentManager;
 
 namespace BL.UnitOfWork
 {
+    // collect managers in a unit
     public class UnitOfWorkManager : IUnitOfWorkManager
     {
         public IStudentManager StudentManager { get; }

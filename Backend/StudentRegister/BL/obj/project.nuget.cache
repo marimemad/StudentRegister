@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DVYv9YMbg8A=",
+  "dgSpecHash": "sKbbeY5eO4s=",
   "success": true,
-  "projectFilePath": "E:\\projects\\ATI\\backend\\StudentRegister\\BL\\BL.csproj",
+  "projectFilePath": "E:\\projects\\ATI\\StudentRegister\\Backend\\StudentRegister\\BL\\BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marim.emad\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\marim.emad\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

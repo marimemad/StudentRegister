@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace BL
 {
+    //inject all Business logic servicess
     public static class BLDependencies
     {
         public static IServiceCollection AddBLDependencies(

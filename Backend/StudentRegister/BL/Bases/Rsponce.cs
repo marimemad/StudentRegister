@@ -2,6 +2,7 @@
 
 namespace BL.Bases
 {
+    //responce object
     public class Response<T>
     {
         public Response()
