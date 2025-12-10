@@ -4,6 +4,7 @@ import { CoursesService } from '../../services/courses.service';
 import { StudentService } from '../../services/student.service';
 import { courseLimitValidator } from './CustomValidator';
 import { ErrorModalService } from '../../services/shared/error-modal.service';
+import { Course } from '../../interfaces/Models/Course';
 
 
 @Component({
@@ -14,7 +15,7 @@ import { ErrorModalService } from '../../services/shared/error-modal.service';
 export class StudentFormComponent implements OnInit {
 
   studentForm: FormGroup;
-  courses: any[] = [];
+  courses: Course[] = [];
 
   constructor(
     private fb: FormBuilder,
@@ -25,7 +26,7 @@ export class StudentFormComponent implements OnInit {
     this.studentForm = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(3)]],
       email: ['', [Validators.required, Validators.email]],
-     phone: ['', [Validators.required, Validators.pattern(/^\d{11}$/)]],
+      phone: ['', [Validators.required, Validators.pattern(/^\d{11}$/)]],
       address: [''],
       dateOfBirth: ['', Validators.required],
       courseIds: [[], courseLimitValidator]
@@ -35,11 +36,11 @@ export class StudentFormComponent implements OnInit {
   ngOnInit(): void {
   this.courseService.getAllCourses().subscribe({
     next: (data) => {
-      this.courses = data;
+      this.courses = data.data;
     },
     error: (err) => {
       console.error('Error loading courses:', err);
-      this.errorModalService.show('Unable to load courses! Check server is running');
+      this.errorModalService.show(err.error.message + err.error.errors.join('\n'));
     }
   });
 }
@@ -48,11 +49,11 @@ export class StudentFormComponent implements OnInit {
     if (this.studentForm.valid) {
       this.studentService.addStudent(this.studentForm.value).subscribe({
         next: (response) => {
-          console.log("Student saved:", response);
+          console.log("Student saved:", response.message);
           alert("Student saved successfully!");
         },
         error: (err) => {
-          this.errorModalService.show("Unable to Submit!  Check server is running")
+          this.errorModalService.show(err.error.errors.join('\n'))
           console.error("Error saving student:", err);
         }
       });

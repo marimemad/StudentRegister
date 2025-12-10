@@ -8,6 +8,9 @@ import {
   ApexLegend
 } from 'ng-apexcharts';
 import { ErrorModalService } from '../../services/shared/error-modal.service';
+import { Course } from '../../interfaces/Models/Course';
+import { Student } from '../../interfaces/Models/Student';
+
 
 export type PieChartOptions = {
   series: ApexNonAxisChartSeries;
@@ -23,8 +26,8 @@ export type PieChartOptions = {
   styleUrls: ['./course-statistics.component.css']
 })
 export class CourseStatisticsComponent implements OnInit {
-  students: any[] = [];
-  courses: any[] = [];
+  students: Student[] = [];
+  courses: Course[] = [];
   public chartOptions: PieChartOptions;
 
   constructor(
@@ -56,16 +59,17 @@ export class CourseStatisticsComponent implements OnInit {
   loadChartData() {
     this.courseService.getAllCourses().subscribe({
       next: courses => {
-        this.courses = courses;
+        this.courses = courses.data;
 
         this.studentService.getStudents().subscribe({
           next: students => {
-            this.students = students;
-
+            this.students = students.data;
             const totalStudents = this.students.length;
 
             const series = this.courses.map(c => {
-              const count = this.students.filter(s => s.courseIds.includes(c.id)).length;
+              const count = this.students.filter(s =>
+                s.courses.some(course => course.id === c.id)
+              ).length;              
               return totalStudents > 0 ? Math.round((count / totalStudents) * 100) : 0;
             });
 
@@ -74,13 +78,13 @@ export class CourseStatisticsComponent implements OnInit {
             this.chartOptions = { ...this.chartOptions, series, labels };
           },
           error: err => {
-            this.errorModalService.show("Unable to load students! Check server is running");
+            this.errorModalService.show(err.error.message + err.error.errors.join('\n'));
           }
         });
 
       },
       error: err => {
-        this.errorModalService.show("Unable to load courses! Check server is running");
+        this.errorModalService.show(err.error.message + err.error.errors.join('\n'));
       }
     });
   }
