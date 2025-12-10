@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentRegister", "StudentRegister\StudentRegister.csproj", "{B85A7D23-574C-4343-8DFE-E99E3BB21715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{0264C9EE-5EDA-4BCA-9A89-3BD33E3BCE85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{0484FB58-D5CC-4114-BBC8-0669F2689A62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B85A7D23-574C-4343-8DFE-E99E3BB21715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85A7D23-574C-4343-8DFE-E99E3BB21715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85A7D23-574C-4343-8DFE-E99E3BB21715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85A7D23-574C-4343-8DFE-E99E3BB21715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0264C9EE-5EDA-4BCA-9A89-3BD33E3BCE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0264C9EE-5EDA-4BCA-9A89-3BD33E3BCE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0264C9EE-5EDA-4BCA-9A89-3BD33E3BCE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0264C9EE-5EDA-4BCA-9A89-3BD33E3BCE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0484FB58-D5CC-4114-BBC8-0669F2689A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0484FB58-D5CC-4114-BBC8-0669F2689A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0484FB58-D5CC-4114-BBC8-0669F2689A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0484FB58-D5CC-4114-BBC8-0669F2689A62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8B1580D-639C-41BA-815E-69ED84255C85}
+	EndGlobalSection
+EndGlobal

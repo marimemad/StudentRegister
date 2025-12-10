@@ -1,0 +1,15 @@
+E:\projects\ATI\backend\StudentRegister\BL\bin\Debug\net7.0\BL.deps.json
+E:\projects\ATI\backend\StudentRegister\BL\bin\Debug\net7.0\BL.dll
+E:\projects\ATI\backend\StudentRegister\BL\bin\Debug\net7.0\BL.pdb
+E:\projects\ATI\backend\StudentRegister\BL\bin\Debug\net7.0\DAL.dll
+E:\projects\ATI\backend\StudentRegister\BL\bin\Debug\net7.0\DAL.pdb
+E:\projects\ATI\backend\StudentRegister\BL\obj\Debug\net7.0\BL.csproj.AssemblyReference.cache
+E:\projects\ATI\backend\StudentRegister\BL\obj\Debug\net7.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\ATI\backend\StudentRegister\BL\obj\Debug\net7.0\BL.AssemblyInfoInputs.cache
+E:\projects\ATI\backend\StudentRegister\BL\obj\Debug\net7.0\BL.AssemblyInfo.cs
+E:\projects\ATI\backend\StudentRegister\BL\obj\Debug\net7.0\BL.csproj.CoreCompileInputs.cache
+E:\projects\ATI\backend\StudentRegister\BL\obj\Debug\net7.0\BL.csproj.Up2Date
+E:\projects\ATI\backend\StudentRegister\BL\obj\Debug\net7.0\BL.dll
+E:\projects\ATI\backend\StudentRegister\BL\obj\Debug\net7.0\refint\BL.dll
+E:\projects\ATI\backend\StudentRegister\BL\obj\Debug\net7.0\BL.pdb
+E:\projects\ATI\backend\StudentRegister\BL\obj\Debug\net7.0\ref\BL.dll
